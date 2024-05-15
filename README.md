@@ -9,4 +9,6 @@ action is triggered immideately.
 
 I didn't use any caching, because there was no such requirement, but they would help with images a lot.
 
+I used one dependecy from Apple for more type strict HTTP.
+
 Thanks in advance
