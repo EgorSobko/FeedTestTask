@@ -7,8 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F654DDF92BF4DD600047C2EC /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F654DDF82BF4DD600047C2EC /* FeedItem.swift */; };
+		F654DDFC2BF4DF220047C2EC /* FeedRemoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F654DDFB2BF4DF220047C2EC /* FeedRemoteService.swift */; };
+		F654DE0B2BF4E2080047C2EC /* ServiceConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F654DE032BF4E2080047C2EC /* ServiceConfiguration.swift */; };
+		F654DE0C2BF4E2080047C2EC /* OperationConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F654DE042BF4E2080047C2EC /* OperationConfiguration.swift */; };
+		F654DE0E2BF4E2080047C2EC /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F654DE062BF4E2080047C2EC /* Endpoint.swift */; };
+		F654DE0F2BF4E2080047C2EC /* EndpointConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F654DE072BF4E2080047C2EC /* EndpointConfiguration.swift */; };
+		F654DE102BF4E2080047C2EC /* URLSessionRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F654DE082BF4E2080047C2EC /* URLSessionRequestHandler.swift */; };
+		F654DE112BF4E2080047C2EC /* HTTPRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F654DE092BF4E2080047C2EC /* HTTPRequestHandler.swift */; };
+		F654DE122BF4E2080047C2EC /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = F654DE0A2BF4E2080047C2EC /* Service.swift */; };
+		F654DE152BF4E87C0047C2EC /* HTTPTypes in Frameworks */ = {isa = PBXBuildFile; productRef = F654DE142BF4E87C0047C2EC /* HTTPTypes */; };
+		F654DE182BF4E94C0047C2EC /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F654DE172BF4E94C0047C2EC /* FeedViewModel.swift */; };
+		F654DE1A2BF4EA900047C2EC /* HTTPTypesFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = F654DE192BF4EA900047C2EC /* HTTPTypesFoundation */; };
 		F68F58162BF10AA200B46CDA /* FeedTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68F58152BF10AA200B46CDA /* FeedTestApp.swift */; };
-		F68F58182BF10AA200B46CDA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68F58172BF10AA200B46CDA /* ContentView.swift */; };
+		F68F58182BF10AA200B46CDA /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68F58172BF10AA200B46CDA /* FeedView.swift */; };
 		F68F581A2BF10AA300B46CDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F68F58192BF10AA300B46CDA /* Assets.xcassets */; };
 		F68F581D2BF10AA300B46CDA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F68F581C2BF10AA300B46CDA /* Preview Assets.xcassets */; };
 		F68F58272BF10AA300B46CDA /* FeedTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68F58262BF10AA300B46CDA /* FeedTestTests.swift */; };
@@ -34,9 +46,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F654DDF82BF4DD600047C2EC /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		F654DDFB2BF4DF220047C2EC /* FeedRemoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedRemoteService.swift; sourceTree = "<group>"; };
+		F654DE032BF4E2080047C2EC /* ServiceConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceConfiguration.swift; sourceTree = "<group>"; };
+		F654DE042BF4E2080047C2EC /* OperationConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationConfiguration.swift; sourceTree = "<group>"; };
+		F654DE062BF4E2080047C2EC /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		F654DE072BF4E2080047C2EC /* EndpointConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndpointConfiguration.swift; sourceTree = "<group>"; };
+		F654DE082BF4E2080047C2EC /* URLSessionRequestHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionRequestHandler.swift; sourceTree = "<group>"; };
+		F654DE092BF4E2080047C2EC /* HTTPRequestHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPRequestHandler.swift; sourceTree = "<group>"; };
+		F654DE0A2BF4E2080047C2EC /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		F654DE172BF4E94C0047C2EC /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 		F68F58122BF10AA200B46CDA /* FeedTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeedTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F68F58152BF10AA200B46CDA /* FeedTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTestApp.swift; sourceTree = "<group>"; };
-		F68F58172BF10AA200B46CDA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F68F58172BF10AA200B46CDA /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		F68F58192BF10AA300B46CDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F68F581C2BF10AA300B46CDA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F68F58222BF10AA300B46CDA /* FeedTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeedTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F654DE152BF4E87C0047C2EC /* HTTPTypes in Frameworks */,
+				F654DE1A2BF4EA900047C2EC /* HTTPTypesFoundation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +95,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F654DDF72BF4DD220047C2EC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F654DDF82BF4DD600047C2EC /* FeedItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F654DDFA2BF4DF070047C2EC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F654DDFB2BF4DF220047C2EC /* FeedRemoteService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F654DDFD2BF4E00C0047C2EC /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				F654DE062BF4E2080047C2EC /* Endpoint.swift */,
+				F654DE072BF4E2080047C2EC /* EndpointConfiguration.swift */,
+				F654DE092BF4E2080047C2EC /* HTTPRequestHandler.swift */,
+				F654DE042BF4E2080047C2EC /* OperationConfiguration.swift */,
+				F654DE0A2BF4E2080047C2EC /* Service.swift */,
+				F654DE032BF4E2080047C2EC /* ServiceConfiguration.swift */,
+				F654DE082BF4E2080047C2EC /* URLSessionRequestHandler.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		F654DE132BF4E87C0047C2EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F654DE162BF4E93E0047C2EC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F654DE172BF4E94C0047C2EC /* FeedViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		F68F58092BF10AA200B46CDA = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +147,7 @@
 				F68F58252BF10AA300B46CDA /* FeedTestTests */,
 				F68F582F2BF10AA300B46CDA /* FeedTestUITests */,
 				F68F58132BF10AA200B46CDA /* Products */,
+				F654DE132BF4E87C0047C2EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,8 +164,12 @@
 		F68F58142BF10AA200B46CDA /* FeedTest */ = {
 			isa = PBXGroup;
 			children = (
+				F654DE162BF4E93E0047C2EC /* ViewModels */,
+				F654DDFD2BF4E00C0047C2EC /* Foundation */,
+				F654DDFA2BF4DF070047C2EC /* Services */,
+				F654DDF72BF4DD220047C2EC /* Model */,
 				F68F58152BF10AA200B46CDA /* FeedTestApp.swift */,
-				F68F58172BF10AA200B46CDA /* ContentView.swift */,
+				F68F58172BF10AA200B46CDA /* FeedView.swift */,
 				F68F58192BF10AA300B46CDA /* Assets.xcassets */,
 				F68F581B2BF10AA300B46CDA /* Preview Content */,
 			);
@@ -143,6 +217,10 @@
 			dependencies = (
 			);
 			name = FeedTest;
+			packageProductDependencies = (
+				F654DE142BF4E87C0047C2EC /* HTTPTypes */,
+				F654DE192BF4EA900047C2EC /* HTTPTypesFoundation */,
+			);
 			productName = FeedTest;
 			productReference = F68F58122BF10AA200B46CDA /* FeedTest.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +293,9 @@
 				Base,
 			);
 			mainGroup = F68F58092BF10AA200B46CDA;
+			packageReferences = (
+				F654DE002BF4E0E90047C2EC /* XCRemoteSwiftPackageReference "swift-http-types" */,
+			);
 			productRefGroup = F68F58132BF10AA200B46CDA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +338,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F68F58182BF10AA200B46CDA /* ContentView.swift in Sources */,
+				F654DE0C2BF4E2080047C2EC /* OperationConfiguration.swift in Sources */,
+				F654DE122BF4E2080047C2EC /* Service.swift in Sources */,
+				F654DE182BF4E94C0047C2EC /* FeedViewModel.swift in Sources */,
+				F654DE0B2BF4E2080047C2EC /* ServiceConfiguration.swift in Sources */,
+				F68F58182BF10AA200B46CDA /* FeedView.swift in Sources */,
+				F654DE102BF4E2080047C2EC /* URLSessionRequestHandler.swift in Sources */,
+				F654DE0E2BF4E2080047C2EC /* Endpoint.swift in Sources */,
 				F68F58162BF10AA200B46CDA /* FeedTestApp.swift in Sources */,
+				F654DE0F2BF4E2080047C2EC /* EndpointConfiguration.swift in Sources */,
+				F654DDF92BF4DD600047C2EC /* FeedItem.swift in Sources */,
+				F654DDFC2BF4DF220047C2EC /* FeedRemoteService.swift in Sources */,
+				F654DE112BF4E2080047C2EC /* HTTPRequestHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,8 +518,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -436,9 +526,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yehorsobko.FeedTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -455,8 +549,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,9 +557,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yehorsobko.FeedTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -582,6 +679,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F654DE002BF4E0E90047C2EC /* XCRemoteSwiftPackageReference "swift-http-types" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-http-types.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F654DE142BF4E87C0047C2EC /* HTTPTypes */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F654DE002BF4E0E90047C2EC /* XCRemoteSwiftPackageReference "swift-http-types" */;
+			productName = HTTPTypes;
+		};
+		F654DE192BF4EA900047C2EC /* HTTPTypesFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F654DE002BF4E0E90047C2EC /* XCRemoteSwiftPackageReference "swift-http-types" */;
+			productName = HTTPTypesFoundation;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F68F580A2BF10AA200B46CDA /* Project object */;
 }

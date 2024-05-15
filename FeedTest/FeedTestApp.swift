@@ -1,17 +1,16 @@
-//
-//  FeedTestApp.swift
-//  FeedTest
-//
-//  Created by Yehor Sobko on 12/05/24.
-//
-
 import SwiftUI
 
 @main
 struct FeedTestApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FeedView(viewModel: feedViewModel())
         }
+    }
+    
+    private func feedViewModel() -> FeedViewModel {
+        let feedRemoteService = FeedServiceFactory().make()
+        
+        return .init(feedRemoteService: feedRemoteService)
     }
 }
